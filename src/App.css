@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 
 .header {
-  background: #151515 url("./assets/images/background/intro-bg.jpg") no-repeat
+  background: #151515 url("./assets/images/background/nature-1.jpg") no-repeat
     center;
   background-size: cover;
   background-attachment: fixed;
@@ -31,7 +31,9 @@
 .header .roles {
   font-family: "lora-regular", serif;
 }
-
+.about-img {
+  width: 400px;
+}
 @media (max-width: 767px) {
   .btn-style {
     height: 30px;
@@ -39,5 +41,8 @@
   }
   .header .roles {
     font-size: 18px !important;
+  }
+  .about-content {
+    flex-direction: column;
   }
 }
