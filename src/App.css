@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .header {
   background: #151515 url("./assets/images/background/nature-1.jpg") no-repeat
     center;
@@ -34,6 +36,7 @@
 .about-img {
   width: 400px;
 }
+
 @media (max-width: 767px) {
   .btn-style {
     height: 30px;
