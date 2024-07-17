@@ -1,0 +1,23 @@
+/* styles/service.css */
+.service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  height: 100%;
+}
+
+.service-icon {
+  margin-bottom: 10px;
+}
+
+.service-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.service-description {
+  font-size: 18px;
+  margin-top: 10px;
+}

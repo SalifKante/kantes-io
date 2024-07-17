@@ -1,0 +1,13 @@
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.not-found-content {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 8px;
+}

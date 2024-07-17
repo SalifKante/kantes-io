@@ -1,0 +1,20 @@
+.footer {
+  background-color: #333; /* Dark gray color */
+  padding: 20px 0; /* Adjust padding as needed */
+}
+
+.icon {
+  color: white;
+}
+
+.icon:hover {
+  color: lightgray; /* Adjust hover color as desired */
+}
+
+.text-white {
+  color: white;
+}
+
+.text-white:hover {
+  color: lightgray; /* Adjust hover color as desired */
+}

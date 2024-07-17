@@ -1,0 +1,25 @@
+/* Custom styles for the gallery */
+.project {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 75%; /* 4:3 Aspect Ratio */
+}
+
+.project img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project img:hover {
+  transform: scale(1.05);
+}
+
+.shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}

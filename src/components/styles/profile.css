@@ -1,0 +1,34 @@
+:root {
+  --primary-color: #007bff; /* Adjust this to your primary color */
+  --icon-text-color: #28a745;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  color: var(--icon-text-color); /* Primary color */
+  font-weight: bold; /* Bold text */
+}
+
+.icon-text .icon {
+  margin-right: 10px;
+  color: var(--icon-text-color); /* Primary color */
+}
+
+.skill {
+  margin-bottom: 1rem;
+}
+
+.skill .progress {
+  margin-top: 0.5rem; /* Space between skill text and progress bar */
+}
+
+.progress {
+  flex-grow: 1;
+}
+
+.bold-text {
+  font-weight: bold;
+  color: var(--primary-color); /* Primary color */
+}
