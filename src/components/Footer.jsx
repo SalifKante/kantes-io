@@ -12,13 +12,13 @@ const Footer = () => {
           <div className="hstack gap-3">
             <a
               className="text-decoration-none"
-              href="https://discord.com/your-discord"
+              href="https://discord.com/users/695396084280852511"
             >
               <FaDiscord className="icon text-white" size={32} />
             </a>
             <a
               className="text-decoration-none"
-              href="https://github.com/your-github"
+              href="https://github.com/SalifKante?tab=repositories"
             >
               <FaGithub className="icon text-white" size={32} />
             </a>

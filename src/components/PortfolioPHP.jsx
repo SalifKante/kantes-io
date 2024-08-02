@@ -3,8 +3,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/portofolio.css";
 import "react-awesome-lightbox/build/style.css";
 import Lightbox from "react-awesome-lightbox";
+import { useTranslation } from "react-i18next";
 
-const images = [];
+const images = [
+  { src: "images/php/job_1.png", title: "Job Finding Web Site - 1" },
+  { src: "images/php/job_2.png", title: "Job Finding Web Site - 2" },
+];
 
 const PortfolioPHP = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,14 +19,18 @@ const PortfolioPHP = () => {
     setIsOpen(true);
   };
 
+  const { t } = useTranslation();
+
   return (
     <section className="portfolio py-5 bg-light">
       <div className="container mt-5 mt-md-5 mt-lg-5">
         <div className="text-center mb-5">
-          <h4 className="text-uppercase fw-bold text-primary">Projects</h4>
+          <h4 className="text-uppercase fw-bold text-primary">
+            {t("project_php.title")}
+          </h4>
           <hr className="w-25 mx-auto my-3" />
           <h2 className="mb-4">PHP - Laravel Framework</h2>
-          <p className="lead">Web Developpement</p>
+          <p className="lead">{t("project_php.name")}</p>
         </div>
         <div className="row">
           {images.map((image, index) => (

@@ -3,8 +3,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/portofolio.css";
 import "react-awesome-lightbox/build/style.css";
 import Lightbox from "react-awesome-lightbox";
-
-const images = [];
+import { useTranslation } from "react-i18next";
+const images = [
+  { src: "images/nodejs/salifcom_1.png", title: "Ecommerce Website - 1" },
+  { src: "images/nodejs/salifcom_2.png", title: "Ecommerce Website - 2" },
+];
 
 const PortfolioNR = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,14 +18,17 @@ const PortfolioNR = () => {
     setIsOpen(true);
   };
 
+  const { t } = useTranslation();
   return (
     <section className="portfolio py-5 bg-light">
       <div className="container mt-5 mt-md-5 mt-lg-5">
         <div className="text-center mb-5">
-          <h4 className="text-uppercase fw-bold text-primary">Projects</h4>
+          <h4 className="text-uppercase fw-bold text-primary">
+            {t("project_node.title")}
+          </h4>
           <hr className="w-25 mx-auto my-3" />
           <h2 className="mb-4">Mongo Express React Node - MERN</h2>
-          <p className="lead">Web Developpement</p>
+          <p className="lead">{t("project_node.name")}</p>
         </div>
         <div className="row">
           {images.map((image, index) => (

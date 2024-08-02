@@ -1,18 +1,73 @@
 import PropTypes from "prop-types";
 import { FaChevronDown, FaGithub, FaDiscord } from "react-icons/fa";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { useState, useEffect, useRef } from "react";
+import { changeLanguage } from "i18next";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Typewriter from "typewriter-effect";
+import "./styles/header.css";
+import { useTranslation } from "react-i18next";
 
 function Header({ scrollToSection, aboutRef }) {
+  const { t } = useTranslation();
+  const [showLanguageDropdown, setShowLanguageDropdown] = useState(false);
+  const dropdownRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setShowLanguageDropdown(false); // Change this back to false to close the dropdown when clicking outside
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [dropdownRef]);
+
   return (
     <header className="header vh-100 text-center position-relative">
+      <div className="top-right" ref={dropdownRef}>
+        <button
+          className="btn btn-circle text-white"
+          onClick={() => setShowLanguageDropdown(!showLanguageDropdown)}
+        >
+          <FontAwesomeIcon icon={faGlobe} className="fa-2x" />
+        </button>
+        {showLanguageDropdown && (
+          <div className="dropdown-menu show">
+            <button
+              onClick={() => changeLanguage("en")}
+              className="dropdown-item d-flex align-items-center"
+            >
+              <span className="flag-icon flag-icon-us me-2"></span> English
+            </button>
+            <button
+              onClick={() => changeLanguage("fr")}
+              className="dropdown-item d-flex align-items-center"
+            >
+              <span className="flag-icon flag-icon-fr me-2"></span> Français
+            </button>
+            <button
+              onClick={() => changeLanguage("ru")}
+              className="dropdown-item d-flex align-items-center"
+            >
+              <span className="flag-icon flag-icon-ru me-2"></span> Русский
+            </button>
+          </div>
+        )}
+      </div>
+
       <div className="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100">
         <h5 className="text-primary fs-3 fw-bold text-uppercase">
-          Hello, World
+          {t("header.hello")}
         </h5>
         <h1 id="typingText" className="display-1 fw-bold text-white">
           <Typewriter
             options={{
-              strings: ["I am Salif Kante."],
+              strings: [t("header.name")],
               autoStart: true,
               loop: true,
             }}
@@ -39,7 +94,7 @@ function Header({ scrollToSection, aboutRef }) {
               <FaChevronDown />
             </div>
             <div className="text-start">
-              <span>More About Me</span>
+              <span>{t("header.more_about_me")}</span>
             </div>
           </div>
         </button>

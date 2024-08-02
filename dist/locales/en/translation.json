@@ -1,0 +1,63 @@
+{
+  "header": {
+    "hello": "Hello, World",
+    "name": "I am Salif Kante",
+    "more_about_me": "More About Me"
+  },
+  "about": {
+    "title": "About Me",
+    "sub_title": "Let me introduce myself",
+    "description": "Originally from Bamako, Mali, I grew up there and currently reside in Tomsk, Russia. I pursued my education in Tunisia, where I spent five years earning a Master's degree in data science and engineering following my undergraduate studies in computer science from 2017 to 2022. Over the past seven years, I've honed my coding skills, beginning with languages like C and Java before transitioning to web and AI technologies such as HTML, CSS, JavaScript, PHP, and Python. Throughout my academic journey, I completed several professional internships and contributed to real-world projects in Tunisia. Additionally, I had the opportunity to share my knowledge by teaching coding to students at private universities in Mali between 2022 and 2023 before relocating to Russia in late 2023 to pursue a Ph.D."
+  },
+  "profile": {
+    "title": "Profile",
+    "sub_title": "Here is some more information about myself to help you get to know me better",
+    "full_name": "Full Name",
+    "name": "Salif Kante",
+    "lang": "Languages",
+    "languages": "English, French, Russian",
+    "univer": "University",
+    "univer_name": "Tomsk State University of Control Systems and Radioelectronics - TUSUR",
+    "program": "Program",
+    "program_name": "Ph.D in Artificial Intelligence and Machine Learning",
+    "email_title": "Email",
+    "email": "salif.kante.pro@gmail.com"
+  },
+  "skills": {
+    "title": "Skills",
+    "sub_title": "Here are some programming skills listed, excluding any mention of libraries and frameworks.",
+    "hire": "Hire Me Now",
+    "download": "Download CV"
+  },
+  "project_js": {
+    "title": "Projects",
+    "name": "Web Developpement"
+  },
+  "project_py": {
+    "title": "Projects",
+    "name": "Web Developpement"
+  },
+  "project_php": {
+    "title": "Projects",
+    "name": "Web Developpement"
+  },
+  "project_node": {
+    "title": "Projects",
+    "name": "Web Developpement"
+  },
+  "project_da": {
+    "title": "Projects",
+    "name": "Artificial Intelligence"
+  },
+  "services": {
+    "title": "Services",
+    "question": "What Can I Do For You?",
+    "description": "Here are some of the services that I offer when it comes to web development and business.",
+    "web_design_title": "Web Design",
+    "web_design_des": "Transforming ideas into visually appealing and user-friendly digital experiences. I craft interfaces that blend creativity with usability, ensuring your brand shines online.",
+    "web_development_title": "Web Development",
+    "web_development_des": "Bringing concepts to life through robust and scalable web solutions. From front-end interactions to back-end functionalities, I build websites that are secure, efficient, and tailored to your needs.",
+    "data_analysis_title": "Data Analysis",
+    "data_analysis_des": " Leveraging data to uncover insights and drive informed decision-making. We analyze complex datasets, extract meaningful patterns, and present actionable recommendations to optimize performance and strategy."
+  }
+}

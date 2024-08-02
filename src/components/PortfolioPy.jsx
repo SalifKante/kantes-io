@@ -3,8 +3,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/portofolio.css";
 import "react-awesome-lightbox/build/style.css";
 import Lightbox from "react-awesome-lightbox";
+import { useTranslation } from "react-i18next";
 
-const images = [];
+const images = [
+  { src: "images/python/blog_1.png", title: "Blog Web Page - 1" },
+  { src: "images/python/blog_2.png", title: "Blog Web Page - 2" },
+  { src: "images/python/blog_3.png", title: "Blog Web Page - 3" },
+  { src: "images/python/blog_4.png", title: "Blog Web Page - 4" },
+];
 
 const PortfolioPy = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,15 +20,17 @@ const PortfolioPy = () => {
     setPhotoIndex(index);
     setIsOpen(true);
   };
-
+  const { t } = useTranslation();
   return (
     <section className="portfolio py-5 bg-light">
       <div className="container mt-5 mt-md-5 mt-lg-5">
         <div className="text-center mb-5">
-          <h4 className="text-uppercase fw-bold text-primary">Projects</h4>
+          <h4 className="text-uppercase fw-bold text-primary">
+            {t("project_py.title")}
+          </h4>
           <hr className="w-25 mx-auto my-3" />
           <h2 className="mb-4">Python - Django Framework</h2>
-          <p className="lead">Web Developpement</p>
+          <p className="lead">{t("project_py.name")}</p>
         </div>
         <div className="row">
           {images.map((image, index) => (

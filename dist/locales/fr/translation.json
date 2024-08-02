@@ -1,0 +1,63 @@
+{
+  "header": {
+    "hello": "Bonjour, Le Monde",
+    "name": "Je suis Salif Kanté",
+    "more_about_me": "En savoir plus sur Moi"
+  },
+  "about": {
+    "title": "À Propos de Moi",
+    "sub_title": "Permettez-moi de me présenter",
+    "description": "Originaire de Bamako, au Mali, j'ai grandi là-bas et réside actuellement à Tomsk, en Russie. J'ai poursuivi mes études en Tunisie, où j'ai passé cinq ans pour obtenir une maîtrise en science des données et en ingénierie, après avoir obtenu une licence en informatique de 2017 à 2022. Au cours des sept dernières années, j'ai perfectionné mes compétences en programmation en commençant par des langages tels que C et Java, puis en me spécialisant dans les technologies Web et l'intelligence artificielle telles que HTML, CSS, JavaScript, PHP et Python. Pendant mon parcours universitaire, j'ai réalisé plusieurs stages professionnels et participé à des projets réels en Tunisie. De plus, j'ai eu l'opportunité de partager mes connaissances en enseignant la programmation à des étudiants dans des universités privées au Mali entre 2022 et 2023, avant de déménager en Russie à la fin de 2023 pour entreprendre un doctorat."
+  },
+  "profile": {
+    "title": "Profil",
+    "sub_title": "Voici quelques informations supplémentaires sur moi pour vous aider à mieux me connaître",
+    "full_name": "Nom Complet",
+    "name": "Salif Kanté",
+    "lang": "Langues",
+    "languages": "Anglais, Français, Russe",
+    "univer": "Université",
+    "univer_name": "Université d'État des Systèmes de Contrôle et de Radioélectronique de Tomsk - TUSUR",
+    "program": "Programme",
+    "program_name": "Doctorat en Intelligence Artificielle et Apprentissage Automatique",
+    "email_title": "Courriel",
+    "email": "salif.kante.pro@gmail.com"
+  },
+  "skills": {
+    "title": "Compétences",
+    "sub_title": "Voici quelques compétences en programmation répertoriées, à l'exclusion de toute mention de bibliothèques et de frameworks.",
+    "hire": "Embauchez-Moi Maintenant",
+    "download": "Télécharger mon CV"
+  },
+  "project_js": {
+    "title": "Projets",
+    "name": "Développement Web"
+  },
+  "project_py": {
+    "title": "Projets",
+    "name": "Développement Web"
+  },
+  "project_php": {
+    "title": "Projets",
+    "name": "Développement Web"
+  },
+  "project_node": {
+    "title": "Projets",
+    "name": "Développement Web"
+  },
+  "project_da": {
+    "title": "Projets",
+    "name": "Intelligence Artificielle"
+  },
+  "services": {
+    "title": "Services",
+    "question": "Que puis-je faire pour vous?",
+    "description": "Voici quelques-uns des services que j'offre en matière de développement Web et d'affaires.",
+    "web_design_title": "Conception de Sites Web",
+    "web_design_des": "Transformer les idées en expériences numériques visuellement attrayantes et conviviales. Je crée des interfaces qui allient créativité et convivialité, garantissant que votre marque brille en ligne.",
+    "web_development_title": "Développement Web",
+    "web_development_des": "Donner vie aux concepts grâce à des solutions Web robustes et évolutives. Des interactions frontales aux fonctionnalités back-end, je construis des sites Web sécurisés, efficaces et adaptés à vos besoins.",
+    "data_analysis_title": "Analyse des Données",
+    "data_analysis_des": "Tirer parti des données pour découvrir des informations et prendre des décisions éclairées. Nous analysons des ensembles de données complexes, extrayons des modèles significatifs et présentons des recommandations exploitables pour optimiser les performances et la stratégie."
+  }
+}

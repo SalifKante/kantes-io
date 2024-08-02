@@ -1,0 +1,19 @@
+.top-right {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.btn-circle {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: white; /* Ensure the icon is white */
+}
+
+.dropdown-menu {
+  top: 45px; /* Adjust if necessary */
+  right: 0;
+  left: auto;
+}
