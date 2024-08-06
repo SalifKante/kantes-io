@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import github from "../assets/images/profile/github.jpg";
 import { useTranslation } from "react-i18next";
-
+// a little comment
 function About({ aboutRef }) {
   const { t } = useTranslation();
   return (
