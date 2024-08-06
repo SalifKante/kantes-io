@@ -133,7 +133,7 @@ function Profile() {
               {t("skills.hire")}
             </a>
             <a
-              href="/SalifKante_CV.pdf"
+              href="/CV_SalifKante.pdf"
               className="btn btn-primary btn-lg text-uppercase px-5 mx-3 my-2"
               download
             >
