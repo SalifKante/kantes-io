@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "redirects": [
+    {
+      "source": "/CV_SalifKante.pdf",
+      "destination": "/cv/CV_Salif_KANTE_2026_FR.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/cv/CV_SalifKante.pdf",
+      "destination": "/cv/CV_Salif_KANTE_2026_FR.pdf",
+      "permanent": true
+    }
+  ]
+}

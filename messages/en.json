@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "title": "Salif Kanté — Research Engineer, Applied AI & Electromagnetic Compatibility",
+    "description": "Engineer at TUSUR University, Tomsk. Applied machine learning, electromagnetic compatibility research, big data and web platforms.",
+    "ogAlt": "Salif Kanté — research engineer, applied AI and electromagnetic compatibility",
+    "shortTitle": "Salif Kanté"
+  },
+  "nav": {
+    "about": "About",
+    "position": "Position",
+    "research": "Research",
+    "projects": "Projects",
+    "skills": "Skills",
+    "credentials": "Credentials",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "theme": "Switch theme",
+    "skipToContent": "Skip to content"
+  },
+  "hero": {
+    "eyebrow": "Tomsk, Russia",
+    "name": "Salif Kanté",
+    "role": "Research Engineer — Applied AI & Electromagnetic Compatibility",
+    "statement": "Engineer in the Department of Television and Control at TUSUR University, working between applied machine learning and computational electromagnetics — and building the web platforms that make those methods usable.",
+    "contact": "Get in touch",
+    "cv": "Download CV",
+    "scroll": "Read more"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Background",
+    "portraitAlt": "Portrait of Salif Kanté",
+    "p1": "I was born and raised in Bamako, Mali. From 2017 to 2022 I studied in Tunisia, completing an undergraduate degree in computer science followed by a master’s degree in data science and engineering.",
+    "p2": "I began with C and Java before moving into web and AI technologies. During my studies I completed several professional internships and contributed to production projects in Tunisia; between 2022 and 2023 I taught programming to students at private universities in Mali.",
+    "p3": "In late 2023 I moved to Tomsk, Russia. I now work as an engineer in the Department of Television and Control at TUSUR University, in the Fundamental Research on Electromagnetic Compatibility laboratory, alongside doctoral work in artificial intelligence and machine learning.",
+    "p4": "My work sits between applied machine learning and computational electromagnetics: deep-learning tools for antenna current prediction, hybrid semi-analytical methods for enclosure shielding, and distributed platforms for electromagnetic modelling and simulation."
+  },
+  "profile": {
+    "eyebrow": "Position",
+    "title": "Affiliation",
+    "position": {
+      "label": "Position",
+      "value": "Engineer — Department of Television and Control"
+    },
+    "university": {
+      "label": "University",
+      "value": "Tomsk State University of Control Systems and Radioelectronics (TUSUR)"
+    },
+    "laboratory": {
+      "label": "Research laboratory",
+      "value": "Fundamental Research on Electromagnetic Compatibility"
+    },
+    "programme": {
+      "label": "Doctoral work",
+      "value": "Artificial intelligence and machine learning"
+    },
+    "location": {
+      "label": "Based in",
+      "value": "Tomsk, Russia"
+    },
+    "email": {
+      "label": "Email"
+    }
+  },
+  "research": {
+    "eyebrow": "Research",
+    "title": "Publications & conferences",
+    "lead": "Papers presented at Russian and international scientific meetings.",
+    "originalTitle": "Original title",
+    "preprintTitle": "Co-authored preprint",
+    "preprintDescription": "Ninth author, through the IA Mali research community.",
+    "preprintCta": "Read on arXiv",
+    "venues": {
+      "itmo": {
+        "name": "XIV Congress of Young Scientists, ITMO University",
+        "city": "Saint Petersburg, Russia"
+      },
+      "tusur": {
+        "name": "Scientific Session of TUSUR",
+        "city": "Tomsk, Russia"
+      }
+    },
+    "items": {
+      "dipole": {
+        "title": "A deep learning-based tool for dipole antenna current prediction and visualization"
+      },
+      "platform": {
+        "title": "Distributed web-based platform for EM modeling and simulation"
+      },
+      "shielding": {
+        "title": "Hybrid semi-analytical method for analyzing the effectiveness of enclosure shielding, combining equivalent circuits and modified nodal analysis"
+      },
+      "shieldingRu": {
+        "title": "Hybrid semi-analytical method for evaluating the shielding effectiveness of enclosures, based on the equivalent-circuit method and modified nodal analysis",
+        "original": "Гибридный полуаналитический метод оценки эффективности экранирования корпусов на основе метода эквивалентных схем и модифицированного метода узловых потенциалов"
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "Work",
+    "title": "Selected projects",
+    "lead": "Applications and interfaces built during studies, internships and teaching.",
+    "openImage": "View screenshot",
+    "groups": {
+      "web": {
+        "title": "Web interfaces & sites"
+      },
+      "python": {
+        "title": "Django applications"
+      },
+      "node": {
+        "title": "MERN applications"
+      },
+      "php": {
+        "title": "Laravel applications"
+      },
+      "ai": {
+        "title": "Machine learning & model deployment"
+      }
+    },
+    "items": {
+      "corso": "Corso website",
+      "ebook": "E-book website",
+      "vera": "Vera website",
+      "yavin": "Yavin website",
+      "quiz": "Quiz app",
+      "quizThemed": "Quiz app with changing background",
+      "calculator": "Mini calculator",
+      "colorFlipper": "Colour flipper",
+      "countdown": "Countdown timer",
+      "counter": "Counter",
+      "guessNumber": "Guess my number",
+      "pigGame": "Pig game",
+      "modal": "Modal window",
+      "blog": "Blog platform",
+      "store": "E-commerce store",
+      "jobBoard": "Job board",
+      "sentiment": "Sentiment analysis"
+    }
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "Technical practice",
+    "lead": "Technologies used in research, teaching and delivered projects.",
+    "groups": {
+      "languages": "Programming languages",
+      "ml": "Machine learning",
+      "data": "Big data",
+      "web": "Web development",
+      "cloud": "Cloud & tooling",
+      "research": "Research methods"
+    }
+  },
+  "credentials": {
+    "eyebrow": "Credentials",
+    "title": "Certifications, communities & languages",
+    "certifications": {
+      "title": "Certifications",
+      "other": "Other"
+    },
+    "communities": {
+      "title": "Communities",
+      "since": "Member since {year}",
+      "items": {
+        "doniyaso": "African knowledge-sharing and technology community.",
+        "aimali": "Artificial intelligence research community in Mali."
+      }
+    },
+    "languages": {
+      "title": "Languages",
+      "items": {
+        "bm": "Bambara",
+        "fr": "French",
+        "en": "English",
+        "ru": "Russian"
+      },
+      "working": "Working language",
+      "native": "Native language"
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Get in touch",
+    "lead": "Open to research collaboration and to contributing to serious technology projects.",
+    "emailCta": "Write to me",
+    "cvCta": "Download CV"
+  },
+  "footer": {
+    "rights": "© {year} Salif Kanté",
+    "built": "Built with Next.js — deployed on Vercel",
+    "backToTop": "Back to top"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "This address does not exist on this site.",
+    "cta": "Back to the home page"
+  }
+}

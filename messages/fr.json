@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "title": "Salif Kanté — Ingénieur de recherche, IA appliquée & compatibilité électromagnétique",
+    "description": "Ingénieur à l’Université TUSUR, Tomsk. Apprentissage automatique appliqué, recherche en compatibilité électromagnétique, big data et plateformes web.",
+    "ogAlt": "Salif Kanté — ingénieur de recherche, IA appliquée et compatibilité électromagnétique",
+    "shortTitle": "Salif Kanté"
+  },
+  "nav": {
+    "about": "Parcours",
+    "position": "Poste",
+    "research": "Recherche",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "credentials": "Certifications",
+    "contact": "Contact",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "language": "Langue",
+    "theme": "Changer de thème",
+    "skipToContent": "Aller au contenu"
+  },
+  "hero": {
+    "eyebrow": "Tomsk, Russie",
+    "name": "Salif Kanté",
+    "role": "Ingénieur de recherche — IA appliquée & compatibilité électromagnétique",
+    "statement": "Ingénieur au département de télévision et de commande de l’Université TUSUR, à la croisée de l’apprentissage automatique appliqué et de l’électromagnétisme numérique — et concepteur des plateformes web qui rendent ces méthodes utilisables.",
+    "contact": "Me contacter",
+    "cv": "Télécharger le CV",
+    "scroll": "En savoir plus"
+  },
+  "about": {
+    "eyebrow": "Parcours",
+    "title": "Trajectoire",
+    "portraitAlt": "Portrait de Salif Kanté",
+    "p1": "Né et élevé à Bamako, au Mali. De 2017 à 2022, j’ai étudié en Tunisie, où j’ai obtenu une licence en informatique puis un master en science des données et ingénierie.",
+    "p2": "J’ai commencé par le C et le Java avant de m’orienter vers les technologies du web et de l’intelligence artificielle. Au cours de mes études, j’ai effectué plusieurs stages professionnels et contribué à des projets en production en Tunisie ; entre 2022 et 2023, j’ai enseigné la programmation à des étudiants d’universités privées au Mali.",
+    "p3": "Fin 2023, je me suis installé à Tomsk, en Russie. J’y travaille comme ingénieur au département de télévision et de commande de l’Université TUSUR, au sein du laboratoire de recherches fondamentales sur la compatibilité électromagnétique, parallèlement à des travaux doctoraux en intelligence artificielle et apprentissage automatique.",
+    "p4": "Mon travail se situe entre l’apprentissage automatique appliqué et l’électromagnétisme numérique : outils d’apprentissage profond pour la prédiction du courant d’antennes, méthodes semi-analytiques hybrides pour le blindage des boîtiers, et plateformes distribuées de modélisation et de simulation électromagnétiques."
+  },
+  "profile": {
+    "eyebrow": "Poste",
+    "title": "Rattachement",
+    "position": {
+      "label": "Poste",
+      "value": "Ingénieur — Département de télévision et de commande"
+    },
+    "university": {
+      "label": "Université",
+      "value": "Université d’État de Tomsk des systèmes de commande et de radioélectronique (TUSUR)"
+    },
+    "laboratory": {
+      "label": "Laboratoire de recherche",
+      "value": "Recherches fondamentales sur la compatibilité électromagnétique"
+    },
+    "programme": {
+      "label": "Travaux doctoraux",
+      "value": "Intelligence artificielle et apprentissage automatique"
+    },
+    "location": {
+      "label": "Basé à",
+      "value": "Tomsk, Russie"
+    },
+    "email": {
+      "label": "Courriel"
+    }
+  },
+  "research": {
+    "eyebrow": "Recherche",
+    "title": "Publications & conférences",
+    "lead": "Communications présentées lors de rencontres scientifiques russes et internationales.",
+    "originalTitle": "Titre original",
+    "preprintTitle": "Prépublication en co-auteur",
+    "preprintDescription": "Neuvième auteur, via la communauté de recherche IA Mali.",
+    "preprintCta": "Consulter sur arXiv",
+    "venues": {
+      "itmo": {
+        "name": "XIVe Congrès des jeunes scientifiques, Université ITMO",
+        "city": "Saint-Pétersbourg, Russie"
+      },
+      "tusur": {
+        "name": "Session scientifique de TUSUR",
+        "city": "Tomsk, Russie"
+      }
+    },
+    "items": {
+      "dipole": {
+        "title": "Un outil fondé sur l’apprentissage profond pour la prédiction et la visualisation du courant d’une antenne dipôle"
+      },
+      "platform": {
+        "title": "Plateforme web distribuée pour la modélisation et la simulation électromagnétiques"
+      },
+      "shielding": {
+        "title": "Méthode semi-analytique hybride pour l’analyse de l’efficacité du blindage des boîtiers, combinant schémas équivalents et analyse nodale modifiée"
+      },
+      "shieldingRu": {
+        "title": "Méthode semi-analytique hybride d’évaluation de l’efficacité du blindage des boîtiers, fondée sur la méthode des schémas équivalents et l’analyse nodale modifiée",
+        "original": "Гибридный полуаналитический метод оценки эффективности экранирования корпусов на основе метода эквивалентных схем и модифицированного метода узловых потенциалов"
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "Réalisations",
+    "title": "Projets sélectionnés",
+    "lead": "Applications et interfaces réalisées durant mes études, mes stages et mon enseignement.",
+    "openImage": "Voir la capture",
+    "groups": {
+      "web": {
+        "title": "Interfaces et sites web"
+      },
+      "python": {
+        "title": "Applications Django"
+      },
+      "node": {
+        "title": "Applications MERN"
+      },
+      "php": {
+        "title": "Applications Laravel"
+      },
+      "ai": {
+        "title": "Apprentissage automatique & mise en production"
+      }
+    },
+    "items": {
+      "corso": "Site Corso",
+      "ebook": "Site E-book",
+      "vera": "Site Vera",
+      "yavin": "Site Yavin",
+      "quiz": "Application de quiz",
+      "quizThemed": "Application de quiz à fond changeant",
+      "calculator": "Mini calculatrice",
+      "colorFlipper": "Générateur de couleurs",
+      "countdown": "Compte à rebours",
+      "counter": "Compteur",
+      "guessNumber": "Devine mon nombre",
+      "pigGame": "Jeu du cochon",
+      "modal": "Fenêtre modale",
+      "blog": "Plateforme de blog",
+      "store": "Boutique en ligne",
+      "jobBoard": "Site d’offres d’emploi",
+      "sentiment": "Analyse de sentiments"
+    }
+  },
+  "skills": {
+    "eyebrow": "Compétences",
+    "title": "Pratique technique",
+    "lead": "Technologies mobilisées en recherche, en enseignement et dans les projets livrés.",
+    "groups": {
+      "languages": "Langages de programmation",
+      "ml": "Apprentissage automatique",
+      "data": "Big data",
+      "web": "Développement web",
+      "cloud": "Cloud & outils",
+      "research": "Méthodes de recherche"
+    }
+  },
+  "credentials": {
+    "eyebrow": "Certifications",
+    "title": "Certifications, communautés & langues",
+    "certifications": {
+      "title": "Certifications",
+      "other": "Autres"
+    },
+    "communities": {
+      "title": "Communautés",
+      "since": "Membre depuis {year}",
+      "items": {
+        "doniyaso": "Communauté africaine de partage des savoirs et de technologie.",
+        "aimali": "Communauté de recherche en intelligence artificielle au Mali."
+      }
+    },
+    "languages": {
+      "title": "Langues",
+      "items": {
+        "bm": "Bambara",
+        "fr": "Français",
+        "en": "Anglais",
+        "ru": "Russe"
+      },
+      "working": "Langue de travail",
+      "native": "Langue maternelle"
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Me contacter",
+    "lead": "Ouvert à la collaboration scientifique et à la contribution à des projets technologiques sérieux.",
+    "emailCta": "M’écrire",
+    "cvCta": "Télécharger le CV"
+  },
+  "footer": {
+    "rights": "© {year} Salif Kanté",
+    "built": "Réalisé avec Next.js — déployé sur Vercel",
+    "backToTop": "Haut de page"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "description": "Cette adresse n’existe pas sur ce site.",
+    "cta": "Retour à l’accueil"
+  }
+}
